@@ -22,7 +22,8 @@
       templateUrl: 'home.html',
       controller: 'HomeController'
     });
-  }]); //"head"-anmeed to the commit at thetip of branch 
+  }]); //"head"-anmeed to the commit at thetip of branch  add this  on site 
+  // barncha A on main barnch but if you change thius barnch it can reload at sam timeline
 
   app.controller('LoginController', function ($scope, $rootScope, $stateParams, $state, LoginService) {
     $rootScope.title = "AngularJS Login Sample";
@@ -55,5 +56,11 @@
       }
     };
   });
-})();
+})(); ///function
+
+
+var as = 23;
+var da = 12;
+var vs = 'yashpal';
+console.log(as + '' + da);
 //# sourceMappingURL=function.dev.js.map
